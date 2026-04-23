@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Pablo Tablas <acw794@qmul.ac.uk>"]
+channels = ["conda-forge"]
+name = "synth-inversion-fdtd"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.4,<3.15"
+numpy = ">=2.4.3,<3"
+scipy = ">=1.17.1,<2"

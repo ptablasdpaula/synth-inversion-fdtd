@@ -1,0 +1,3 @@
+[submodule "ness"]
+	path = ness
+	url = https://github.com/Edinburgh-Acoustics-and-Audio-Group/ness.git
