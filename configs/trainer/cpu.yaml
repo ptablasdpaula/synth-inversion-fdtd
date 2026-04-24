@@ -1,0 +1,21 @@
+# @package trainer
+
+_target_: lightning.pytorch.trainer.Trainer
+
+default_root_dir: ${paths.output_dir}
+
+accelerator: cpu
+devices: 1
+precision: 32
+
+min_steps: 1
+max_steps: 1000
+
+gradient_clip_val: 0.5
+
+check_val_every_n_epoch: null
+val_check_interval: 100
+
+log_every_n_steps: 10
+enable_model_summary: true
+fast_dev_run: false

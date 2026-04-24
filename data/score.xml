@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<score>
+  <duration>8.0</duration>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>0.2500</startTime>
+    <duration>0.001362</duration><amplitude>0.4310</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>0.5560</startTime>
+    <duration>0.001238</duration><amplitude>0.3722</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>0.8619</startTime>
+    <duration>0.001626</duration><amplitude>0.3050</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>1.1679</startTime>
+    <duration>0.001701</duration><amplitude>0.3003</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>1.4739</startTime>
+    <duration>0.001619</duration><amplitude>0.4402</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>1.7798</startTime>
+    <duration>0.001632</duration><amplitude>0.3737</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>2.0858</startTime>
+    <duration>0.001268</duration><amplitude>0.3737</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>2.3918</startTime>
+    <duration>0.001563</duration><amplitude>0.3169</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>2.6977</startTime>
+    <duration>0.001411</duration><amplitude>0.4664</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>3.0037</startTime>
+    <duration>0.001398</duration><amplitude>0.3509</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>3.3097</startTime>
+    <duration>0.001527</duration><amplitude>0.3504</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>3.6156</startTime>
+    <duration>0.001704</duration><amplitude>0.3603</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>3.9216</startTime>
+    <duration>0.001327</duration><amplitude>0.4055</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>4.2276</startTime>
+    <duration>0.001319</duration><amplitude>0.3650</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>4.5335</startTime>
+    <duration>0.001284</duration><amplitude>0.3789</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>4.8395</startTime>
+    <duration>0.001760</duration><amplitude>0.3032</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>5.1454</startTime>
+    <duration>0.001724</duration><amplitude>0.4258</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>5.4514</startTime>
+    <duration>0.001701</duration><amplitude>0.3796</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>5.7574</startTime>
+    <duration>0.001688</duration><amplitude>0.3529</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>6.0633</startTime>
+    <duration>0.001798</duration><amplitude>0.3345</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string2</component>
+    <x>0.8</x><startTime>6.3693</startTime>
+    <duration>0.001235</duration><amplitude>0.4821</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string4</component>
+    <x>0.8</x><startTime>6.6753</startTime>
+    <duration>0.001542</duration><amplitude>0.3107</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string5</component>
+    <x>0.8</x><startTime>6.9812</startTime>
+    <duration>0.001794</duration><amplitude>0.3000</amplitude>
+  </pluck>
+  <pluck interpolated="true">
+    <component>string6</component>
+    <x>0.8</x><startTime>7.2872</startTime>
+    <duration>0.001470</duration><amplitude>0.3407</amplitude>
+  </pluck>
+  <finger>
+    <component>string1</component>
+    <initialPosition>0.098851</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.098851</position><force>0.0</force>
+      <time>0.0400</time><position>0.098851</position><force>1.0</force>
+      <time>8.0000</time><position>0.098851</position><force>1.0</force>
+    </gesture>
+  </finger>
+  <finger>
+    <component>string2</component>
+    <initialPosition>0.098901</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.098901</position><force>0.0</force>
+      <time>0.0600</time><position>0.098901</position><force>1.0</force>
+      <time>8.0000</time><position>0.098901</position><force>1.0</force>
+    </gesture>
+  </finger>
+  <finger>
+    <component>string3</component>
+    <initialPosition>0.195966</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.195966</position><force>0.0</force>
+      <time>0.0800</time><position>0.195966</position><force>1.0</force>
+      <time>8.0000</time><position>0.195966</position><force>1.0</force>
+    </gesture>
+  </finger>
+  <finger>
+    <component>string4</component>
+    <initialPosition>0.196033</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.196033</position><force>0.0</force>
+      <time>0.1000</time><position>0.196033</position><force>1.0</force>
+      <time>8.0000</time><position>0.196033</position><force>1.0</force>
+    </gesture>
+  </finger>
+  <finger>
+    <component>string5</component>
+    <initialPosition>0.196099</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.196099</position><force>0.0</force>
+      <time>0.1200</time><position>0.196099</position><force>1.0</force>
+      <time>8.0000</time><position>0.196099</position><force>1.0</force>
+    </gesture>
+  </finger>
+  <finger>
+    <component>string6</component>
+    <initialPosition>0.099018</initialPosition><initialVelocity>0.0</initialVelocity>
+    <gesture>
+      <time>0.0</time><position>0.099018</position><force>0.0</force>
+      <time>0.1400</time><position>0.099018</position><force>1.0</force>
+      <time>8.0000</time><position>0.099018</position><force>1.0</force>
+    </gesture>
+  </finger>
+</score>

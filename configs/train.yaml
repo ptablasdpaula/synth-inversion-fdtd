@@ -1,0 +1,19 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - data: ness_guitar
+  - model: ness_flow
+  - callbacks: default
+  - trainer: gpu
+  - logger: wandb
+  - paths: default
+  - experiment: null  # override with -e flag
+
+# General
+seed: 42
+train: true
+test: false
+print_config: false
+optimized_metric: null
+ckpt_path: null

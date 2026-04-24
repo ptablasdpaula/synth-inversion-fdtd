@@ -1,0 +1,2 @@
+# @package logger
+# Use this to disable logging: python train.py logger=none

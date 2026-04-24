@@ -1,0 +1,16 @@
+# @package data
+
+_target_: src.data.ness_datamodule.NESSDataModule
+
+data_dir: ${paths.data_dir}
+batch_size: 128
+num_workers: 8
+pin_memory: true
+sample_rate: 44100
+n_mels: 128
+f_min: 60.0
+f_max: 16000.0
+mel_mean: -5.0   # Will be overridden by mel_stats.json if present
+mel_std: 2.5
+target_frames: 401
+seed: ${seed}

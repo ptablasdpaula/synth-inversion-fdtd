@@ -1,0 +1,20 @@
+# @package trainer
+
+_target_: lightning.pytorch.trainer.Trainer
+
+default_root_dir: ${paths.output_dir}
+
+accelerator: gpu
+devices: 1
+precision: bf16-mixed
+
+min_steps: 1
+max_steps: 1_000_000
+
+gradient_clip_val: 0.5
+
+check_val_every_n_epoch: null
+val_check_interval: 10000
+
+log_every_n_steps: 50
+enable_model_summary: true

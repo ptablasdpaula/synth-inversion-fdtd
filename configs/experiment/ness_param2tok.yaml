@@ -1,0 +1,41 @@
+# @package _global_
+
+# Run with:
+#   python train.py experiment=ness_param2tok
+# or on Andrena:
+#   python train.py experiment=ness_param2tok trainer=gpu trainer.devices=1
+
+defaults:
+  - override /data: ness_guitar
+  - override /model: ness_flow
+  - override /callbacks: default
+  - override /trainer: gpu
+  - _self_
+
+experiment_name: ness-param2tok
+
+seed: 42
+
+tags:
+  - ness
+  - guitar
+  - param2tok
+  - equivariant
+
+logger:
+  wandb:
+    tags: ${tags}
+    name: ${experiment_name}
+    group: ${experiment_name}
+
+callbacks:
+  model_checkpoint:
+    monitor: null
+  early_stopping: null
+
+trainer:
+  gradient_clip_val: 0.5
+  precision: bf16-mixed
+  min_steps: 1_000_000
+  max_steps: 1_000_000
+  val_check_interval: 10000

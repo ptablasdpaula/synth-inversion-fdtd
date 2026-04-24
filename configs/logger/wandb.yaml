@@ -1,0 +1,10 @@
+# @package logger
+
+wandb:
+  _target_: lightning.pytorch.loggers.wandb.WandbLogger
+  project: ness-guitar-flow
+  name: null
+  save_dir: ${paths.output_dir}
+  offline: false
+  tags: ["ness", "guitar", "flow-matching"]
+  group: null

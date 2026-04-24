@@ -1,0 +1,19 @@
+# @package callbacks
+
+model_checkpoint:
+  _target_: lightning.pytorch.callbacks.ModelCheckpoint
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "epoch_{epoch:04d}-step_{step}"
+  monitor: null
+  save_last: true
+  every_n_train_steps: 50000
+  save_top_k: -1
+
+lr_monitor:
+  _target_: lightning.pytorch.callbacks.LearningRateMonitor
+  logging_interval: step
+
+log_per_param_mse:
+  _target_: src.utils.callbacks.LogPerParamMSE
+  max_plucks: 40
+  params_per_pluck: 31

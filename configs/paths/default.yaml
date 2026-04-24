@@ -1,0 +1,6 @@
+# @package paths
+
+root_dir: ${oc.env:PROJECT_ROOT,"."}
+data_dir: ${paths.root_dir}/data/ness_guitar
+output_dir: ${paths.root_dir}/outputs/${now:%Y-%m-%d}_${now:%H-%M-%S}
+log_dir: ${paths.output_dir}/logs
