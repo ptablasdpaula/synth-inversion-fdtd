@@ -9,3 +9,4 @@ __pycache__/
 *.pyc
 tea_debug.log
 progress.txt
+.DS_Store

@@ -9,6 +9,12 @@ model_checkpoint:
   every_n_train_steps: 50000
   save_top_k: -1
 
+log_val_audio:
+  _target_: src.utils.callbacks.LogValidationAudioCallback
+  ness_binary: ${paths.root_dir}/ness/ness-framework
+  num_steps: 50
+  cfg_strength: 2.0
+
 lr_monitor:
   _target_: lightning.pytorch.callbacks.LearningRateMonitor
   logging_interval: step
