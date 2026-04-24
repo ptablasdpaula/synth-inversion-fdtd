@@ -1,3 +1,11 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Local testing & logs
+outputs/
+data/ness_guitar_local/
+__pycache__/
+*.pyc
+tea_debug.log
+progress.txt

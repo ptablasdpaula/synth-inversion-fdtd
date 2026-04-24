@@ -1,1 +1,1 @@
-from src.data.ness_datamodule import NESSDataModule
+from data.ness_datamodule import NESSDataModule

@@ -1,6 +1,6 @@
 # @package data
 
-_target_: src.data.ness_datamodule.NESSDataModule
+_target_: data.ness_datamodule.NESSDataModule
 
 data_dir: ${paths.data_dir}
 batch_size: 128
